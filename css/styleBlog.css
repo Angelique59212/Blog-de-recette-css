@@ -64,3 +64,13 @@ th {
 .encadrement {
     border-radius: 10px;
 }
+
+.emplacement {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.preparation {
+    text-align: center;
+}

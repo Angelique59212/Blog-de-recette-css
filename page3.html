@@ -5,10 +5,42 @@
     <title>Lapin à la moutarde</title>
     <link rel="stylesheet" href="css/styleBlog.css">
 </head>
-<body>
-    <div style="text-align: center">
-        <h1>Lapin à la moutarde</h1>
-        <img src="/img/lapin.jpg" alt="lapin" width="200">
+<body id="arriere-plan">
+    <h1>Lapin à la moutarde</h1>
+
+    <div class="emplacement"> <!--Ingrédients -->
+        <ul>
+            <li><h2 class="indication" id="ingredient">Ingrédients</h2></li>
+            <li>1 bouteille de vin blanc sec</li>
+            <li>1 moutarde de dijon</li>
+            <li>huile d'olive</li>
+            <li>2 gousses d'ail</li>
+            <li>1 branche de thym</li>
+            <li>persil</li>
+            <li>poivre</li>
+            <li>sel</li>
+            <li>1 morceau de sucre</li>
+            <li>1 carotte</li>
+            <li>1 lapin</li>
+            <li>1 petit pot de crème fraîche</li>
+        </ul>
+    </div>
+
+    <div class="emplacement">
+        <img src="/img/lapin.jpg" alt="lapin" width="400">
+    </div>
+
+    <div style="width: 25%;display: inline-block;vertical-align: top" > <!-- Ustensiles -->
+        <ul>
+            <li><h2 class="indication" id="ustensile">Ustensiles</h2></li>
+            <li>1 poêle</li>
+            <li>1 casserole</li>
+            <li>1 pinceau</li>
+            <li>1 bol</li>
+            <li>1 saladier</li>
+            <li>1 cuillère à soupe</li>
+            <li>1 balance</li>
+        </ul>
     </div>
 <table>
     <thead>
@@ -28,38 +60,7 @@
         </tr>
     </tbody>
 </table>
-
-    <div style="width: 25%;display: inline-block"> <!--Ingrédients -->
-        <ul>
-            <li><h2 class="indication" id="ingredient">Ingrédients</h2></li>
-            <li>1 bouteille de vin blanc sec</li>
-            <li>1 moutarde de dijon</li>
-            <li>huile d'olive</li>
-            <li>2 gousses d'ail</li>
-            <li>1 branche de thym</li>
-            <li>persil</li>
-            <li>poivre</li>
-            <li>sel</li>
-            <li>1 morceau de sucre</li>
-            <li>1 carotte</li>
-            <li>1 lapin</li>
-            <li>1 petit pot de crème fraîche</li>
-        </ul>
-    </div>
-
-    <div style="width: 25%;display: inline-block;vertical-align: top" > <!-- Ustensiles -->
-        <ul>
-            <li><h2 class="indication" id="ustensile">Ustensiles</h2></li>
-            <li>1 poêle</li>
-            <li>1 casserole</li>
-            <li>1 pinceau</li>
-            <li>1 bol</li>
-            <li>1 saladier</li>
-            <li>1 cuillère à soupe</li>
-            <li>1 balance</li>
-        </ul>
-    </div>
-
+    <div class="preparation">
     <div> <!-- Préparation -->
         <ol class="etape" id="etape1" type="1">
             <li style="color: deeppink">Etape1</li>
@@ -101,5 +102,7 @@
     <div>
         <a href="Demande%20d'informations.html">Plus d'infos</a>
     </div>
+    </div>
+
 </body>
 </html>

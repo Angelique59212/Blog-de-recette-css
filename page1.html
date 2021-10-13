@@ -5,32 +5,9 @@
     <title>Boeuf Bourguignon</title>
     <link rel="stylesheet" href="css/styleBlog.css">
 </head>
-<body>
+<body id="arriere-plan">
      <h1 style="text-align: center">Boeuf Bourguignon</h1>
-
-    <div style="text-align: center">
-        <img src="/img/boeuf-bourguignon.jpg" alt="boeuf" width="400">
-    </div>
-<table>
-    <thead>
-        <tr>
-            <th>temps</th>
-            <td>6h</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>niveau</th>
-            <td>facile</td>
-        </tr>
-        <tr>
-            <th>coût</th>
-            <td>moyen</td>
-        </tr>
-    </tbody>
-</table>
-
-     <div style="width: 25%;display: inline-block"> <!--Ingrédients -->
+     <div class="emplacement" style="width: 25%;display: inline-block"> <!--Ingrédients -->
          <ul>
              <li><h2 class="indication" id="ingredient">Ingrédients</h2></li>
              <li>4 carottes</li>
@@ -44,23 +21,49 @@
          </ul>
      </div>
 
-    <div style="width: 25%;display: inline-block;vertical-align: top"> <!-- Ustensiles -->
-        <ul>
-            <li><h2 class="indication" id="ustensile">Ustensiles</h2></li>
-            <li>1 couteau</li>
-            <li>1 cocotte</li>
-            <li>1 poêle</li>
-            <li>1 four</li>
-            <li>1 balance</li>
-        </ul>
-    </div>
+     <div class="emplacement">
+        <img src="/img/boeuf-bourguignon.jpg" alt="boeuf" width="400">
+     </div>
 
+     <div class="emplacement"> <!-- Ustensiles -->
+         <ul>
+             <li><h2 class="indication" id="ustensile">Ustensiles</h2></li>
+             <li>1 couteau</li>
+             <li>1 cocotte</li>
+             <li>1 poêle</li>
+             <li>1 four</li>
+             <li>1 balance</li>
+         </ul>
+     </div>
+
+     <table>
+    <thead>
+        <tr>
+            <th>temps</th>
+            <td>6h</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>niveau</th>
+            <td>facile</td>
+        </tr>
+
+        <tr>
+            <th>coût</th>
+            <td>moyen</td>
+        </tr>
+    </tbody>
+</table>
+
+    <div class="preparation">
     <div> <!-- Préparation -->
         <ol class="etape" id="etape1" type="1">
             <li style="color: deeppink">Etape1</li>
         </ol>
         <p> Détailler la viande en cubes de 3cm de côté, enlever les gros morceaux de gras.</p>
     </div>
+
     <div>
         <ol class="etape" id="etape2" type="1" start="2">
             <li style="color: deeppink">Etape2</li>
@@ -69,6 +72,7 @@
         <p>Le faire revenir dans une poêle au beurre.</p>
         <p>Une fois transparent, le verser dans une cocotte en fonte de préférence.</p>
     </div>
+
     <div>
         <ol class="etape" id="etape3" type="1" start="3">
             <li style="color: deeppink">Etape3</li>
@@ -101,7 +105,7 @@
     </div>
         <a href="Demande%20d'informations.html">Plus d'infos</a>
     </div>
-
+    </div>
 
 
 </body>
