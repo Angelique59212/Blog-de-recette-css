@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Lapin à la moutarde</title>
+    <link rel="stylesheet" href="css/styleBlog.css">
 </head>
 <body>
     <div style="text-align: center">
         <h1>Lapin à la moutarde</h1>
-        <img src="lapin.jpg" alt="lapin" width="200">
+        <img src="/img/lapin.jpg" alt="lapin" width="200">
     </div>
 <table>
     <thead>
@@ -28,9 +29,9 @@
     </tbody>
 </table>
 
-    <div style="width: 25%;display: inline-block"> <!--Ingrédients --> >
+    <div style="width: 25%;display: inline-block"> <!--Ingrédients -->
         <ul>
-            <li><h2>Ingrédients</h2></li>
+            <li><h2 class="indication" id="ingredient">Ingrédients</h2></li>
             <li>1 bouteille de vin blanc sec</li>
             <li>1 moutarde de dijon</li>
             <li>huile d'olive</li>
@@ -48,7 +49,7 @@
 
     <div style="width: 25%;display: inline-block;vertical-align: top" > <!-- Ustensiles -->
         <ul>
-            <li><h2>Ustensiles</h2></li>
+            <li><h2 class="indication" id="ustensile">Ustensiles</h2></li>
             <li>1 poêle</li>
             <li>1 casserole</li>
             <li>1 pinceau</li>
@@ -60,19 +61,19 @@
     </div>
 
     <div> <!-- Préparation -->
-        <ol type="1">
+        <ol class="etape" id="etape1" type="1">
             <li style="color: deeppink">Etape1</li>
         </ol>
         <p>Couper le lapin en morceau et badigeonnez légèrement de moutarde.</p>
         <p>Faire revenir les morceaux sans les faire brûler dans un peu d'huile.</p>
 
-        <ol type="1" start="2">
+        <ol class="etape" id="etape2" type="1" start="2">
             <li style="color: deeppink">Etape2</li>
         </ol>
         <p>Pendant ce temps, portez à ébullition les 3/4 de la bouteille de vin blanc et l'ail coupé en petit
         morceaux, le laurier, le thym, la carotte coupée en rondelles et le morceau de sucre.</p>
 
-        <ol type="1" start="3">
+        <ol class="etape" id="etape3" type="1" start="3">
             <li style="color: deeppink">Etape3</li>
         </ol>
         <p>Retirez les morceaux de lapin et gardez au chaud.</p>
@@ -80,18 +81,18 @@
         <p>Ajoutez le lapin et versez dessus le vin blanc chaud.</p>
         <p>Salez et poivrez et laisser cuire à feu doux pendant 1h.</p>
 
-        <ol type="1" start="4">
+        <ol class="etape" id="etape4" type="1" start="4">
             <li style="color: deeppink">Etape4</li>
         </ol>
         <p>Dans un bol, mélangez la crème, le persil haché et une cuillère à soupe de moutarde.</p>
         <p>Profitez du temps restant pour vous préparez un kir avec le reste du vin blanc.</p>
 
-        <ol type="1" start="5">
+        <ol class="etape" id="etape5" type="1" start="5">
             <li style="color: deeppink">Etape5</li>
         </ol>
         <p>En fin de cuisson, placez les morceaux de lapin sur un plat de service et saupoudrez de persil.</p>
 
-        <ol type="1" start="6">
+        <ol class="etape" id="etape6" type="1" start="6">
             <li style="color: deeppink">Etape6</li>
         </ol>
         <p>Filtrez le jus de cuisson et incorporez la crème à la moutarde.</p>

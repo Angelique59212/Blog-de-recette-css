@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Boeuf Bourguignon</title>
+    <link rel="stylesheet" href="css/styleBlog.css">
 </head>
 <body>
      <h1 style="text-align: center">Boeuf Bourguignon</h1>
 
     <div style="text-align: center">
-        <img src="boeuf%20bourguignon.jpg" alt="boeuf" width="400">
+        <img src="/img/boeuf-bourguignon.jpg" alt="boeuf" width="400">
     </div>
 <table>
     <thead>
@@ -31,7 +32,7 @@
 
      <div style="width: 25%;display: inline-block"> <!--Ingrédients -->
          <ul>
-             <li><h2>Ingrédients</h2></li>
+             <li><h2 class="indication" id="ingredient">Ingrédients</h2></li>
              <li>4 carottes</li>
              <li>1 bouquet garni</li>
              <li>1 bouteille de vin rouge</li>
@@ -45,7 +46,7 @@
 
     <div style="width: 25%;display: inline-block;vertical-align: top"> <!-- Ustensiles -->
         <ul>
-            <li><h2>Ustensiles</h2></li>
+            <li><h2 class="indication" id="ustensile">Ustensiles</h2></li>
             <li>1 couteau</li>
             <li>1 cocotte</li>
             <li>1 poêle</li>
@@ -55,13 +56,13 @@
     </div>
 
     <div> <!-- Préparation -->
-        <ol type="1">
+        <ol class="etape" id="etape1" type="1">
             <li style="color: deeppink">Etape1</li>
         </ol>
         <p> Détailler la viande en cubes de 3cm de côté, enlever les gros morceaux de gras.</p>
     </div>
     <div>
-        <ol type="1" start="2">
+        <ol class="etape" id="etape2" type="1" start="2">
             <li style="color: deeppink">Etape2</li>
         </ol>
         <p>Couper l'oignon en morceaux.</p>
@@ -69,7 +70,7 @@
         <p>Une fois transparent, le verser dans une cocotte en fonte de préférence.</p>
     </div>
     <div>
-        <ol type="1" start="3">
+        <ol class="etape" id="etape3" type="1" start="3">
             <li style="color: deeppink">Etape3</li>
         </ol>
         <p>Procéder de même avec la viande mais en plusieurs fois, jusqu'à ce que tous les morceaux soient cuits.
@@ -77,7 +78,7 @@
         <p>Les ajouter au fur et à mesure dans la cocotte.</p>
         <p>Ne pas avoir peur d'ajouter du beurre entre chaque fournée.</p>
     <div>
-        <ol type="1" start="4">
+        <ol class="etape" id="etape4" type="1" start="4">
             <li style="color: deeppink">Etape4</li>
         </ol>
         <p>Quand toute la viande est dans la cocotte, déglacer la poêle avec de l'eau ou du vin et faire bouillir
@@ -85,14 +86,14 @@
         <p>Saler et poivrer, aujouter au reste.</p>
     </div>
     <div>
-        <ol type="1" start="5">
+        <ol class="etape" id="etape5" type="1" start="5">
             <li style="color: deeppink">Etape5</li>
         </ol>
         <p>Recouvrir le tout avec une partie du vin et faire mijoter quelques heures avec le bouquet garni et les
         carottes en rondelles.</p>
     </div>
     <div>
-        <ol type="1" start="6">
+        <ol class="etape" id="etape6" type="1" start="6">
             <li style="color: deeppink">Etape6</li>
         </ol>
         <p>Le lendemain, faire mijoter au moins 2heures en plusieurs fois, ajouter du vin ou de l'eau si
